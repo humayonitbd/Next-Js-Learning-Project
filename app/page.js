@@ -3,9 +3,6 @@
 
 export default function Home() {
  
-
-  
- 
   return (
     <main>
       <div className="mt-10">
