@@ -1,13 +1,14 @@
 // "use client";
 
+import LearnLink from "@/components/LearnLink";
+
 
 export default function Home() {
  
   return (
     <main>
       <div className="mt-10">
-        <h1>Md Humayon Forid</h1>
-        <br />
+       <LearnLink />
         
       </div>
     </main>
