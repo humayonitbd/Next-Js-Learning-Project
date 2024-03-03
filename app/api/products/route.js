@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
 
 
-export default function GET(req) {
-  return NextResponse.json({"message":"I am Learning Programming!!"})
+export async function GET(req) {
+  return NextResponse.json({
+    "id":"01",
+    "name":"Md Humayon Forid",
+    "Title":"Web Designer and Developer!",
+    "message":"I am Learning Programming!!"
+})
 }
+
